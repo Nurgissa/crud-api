@@ -1,0 +1,33 @@
+{
+  "name": "crud-api",
+  "description": "crud api implementation using node.js",
+  "version": "0.0.1",
+  "main": "index.ts",
+  "devDependencies": {
+    "@types/node": "^22.7.7",
+    "@types/uuid": "^10.0.0",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "scripts": {
+    "start:dev": "nodemon ./src/index.ts",
+    "start:prod": "tsc --project ./ && node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nurgissa/crud-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nurgissa/crud-api/issues"
+  },
+  "homepage": "https://github.com/Nurgissa/crud-api#readme",
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}
